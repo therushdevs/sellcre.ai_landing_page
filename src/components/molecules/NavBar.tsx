@@ -8,10 +8,6 @@ export default function NavBar() {
   const dropdownRef = useRef<HTMLDivElement>(null);
   const menuIconRef = useRef<any>(null);
 
-  const toggleDropdown = () => {
-    setIsOpen((prevState) => !prevState);
-  };
-
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
