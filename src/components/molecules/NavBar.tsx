@@ -6,7 +6,7 @@ import { MenuIcon, NavLogo } from "../../../public/assets/index";
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
-  const menuIconRef = useRef<any>(null);
+  const menuIconRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
