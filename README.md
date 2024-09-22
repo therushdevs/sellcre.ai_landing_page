@@ -1,7 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 Hosted Url: https://sellcre-ai-landing-page.vercel.app/ 
+
 Loom Video: https://www.loom.com/share/a379f2bdf20b448ca2ce35e8f41aa0a3 
+
 ## Getting Started
 
 First, run the development server:
